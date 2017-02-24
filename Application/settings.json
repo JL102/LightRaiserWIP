@@ -1,0 +1,47 @@
+{
+	"UI": {
+		"dir": {
+			"x":{
+				"plus": "xp",
+				"minus": "xn",
+				"stop": "xs"
+			},
+			"y":{
+				"plus": "yp",
+				"minus": "yn",
+				"stop": "ys"
+			},
+			"z":{
+				"plus": "zp",
+				"minus": "zn",
+				"stop": "zs"
+			}
+		},
+		"laser": {
+			"laser1": "l1",
+			"laser2": "l2",
+			"laser3": "l3",
+			"laser1name": 405,
+			"laser2name": 450,
+			"laser5name": 520
+		},
+		"slider": {
+			"animate": 200,
+			"min": 0,
+			"max": 180,
+			"deltaTime": 250
+		}
+	},
+	"theme": {
+		"light":{
+			"background-color": "#e6e6e6",
+			"text-color": "#f2f2f2",
+			"topbar": {
+				"background-color": "#61686b"
+			}
+		},
+		"dark":{
+		
+		}
+	}
+}

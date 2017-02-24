@@ -1,0 +1,68 @@
+body{
+	background-color: #e6e6e6;
+	color: #F2F2F2;
+	height: 100%;
+	margin: 0;
+}
+html{
+	height: 100%;
+}
+#topbar{
+	-webkit-app-region: drag;
+	background-color: #61686b;
+	height: 35px;
+	
+}
+#main{
+	min-height: 90%;
+	margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 10px;
+}
+}
+#arrowSVG{
+	height: 300px;
+}
+#info{
+	background-color: #61686b;
+    border: 2px solid #d3dae0;
+    width: 100%;
+    height: 30px;
+}
+#info-container{
+}
+#arrowsvg-container{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    height: 50%;
+}
+#arrowsvg{
+	height: 100%;
+}
+#lasersvg-container{
+	height: 35%;
+    position: absolute;
+    left: 52%;
+    top: 53%;
+}
+#lasersvg{
+	height: 100%;
+}
+#canvas-container{
+	position: absolute;
+    top: 8%;
+    left: 40%;
+}
+#canvas{
+	border: 6px solid #2f2f2f;
+    border-radius: 10px;
+}
+#slider{
+    margin-bottom: 10%;
+    width: 90.5%;
+    margin-left: 4%;;
+}
+.ui-slider-handle, ui-corner-all, ui-state-focus{
+	border: 1px solid #000000 !important;
+}

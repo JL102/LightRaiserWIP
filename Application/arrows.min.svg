@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+	<style>
+.st0, .st1 {
+	fill: #61686b;
+	stroke: #2f2f2f;
+	stroke-width: 3;
+	stroke-miterlimit: 10
+}
+
+.st1 {
+	fill: #2f2f2f;
+	stroke: #000000;
+	stroke-width: 3;
+	stroke-miterlimit: 10
+}
+
+.st2 {
+	display: none
+}
+
+.active {
+	opacity: 1;
+}
+
+.inactive {
+	opacity: .3;
+}
+
+.directionalText{
+	font-family: sans-serif;
+    font-weight: normal;
+    color: #F2F2F2;
+}
+
+.hidden{
+	opacity: 0;
+}
+
+.shown{
+	opacity: 1;
+}
+
+</style>
+	<g id="Layer_2">
+	<path id="arrup" class="st0 yz active" d="M75 3.2l-12 49h24z" />
+	<path id="arrright" class="st0 x active" d="M146.8 75l-49-12v24z" />
+	<path id="arrdown" class="st0 yz active" d="M75 146.8l12-49H63z" />
+	<path id="arrleft" class="st0 x active" d="M3.2 75l49 12V63z" /></g>
+	
+	<text class="directionalText x active" fill="#F2F2F2" transform="translate(100.75 78.5)"
+		font-family="'MyriadPro-BoldCond'" font-size="12">+X</text>
+	<text class="directionalText x active" fill="#F2F2F2" transform="translate(35 78.5)"
+		font-family="'MyriadPro-BoldCond'" font-size="12">–X</text>
+	<text class="directionalText y shown" fill="#F2F2F2" transform="translate(67 48)"
+		font-family="'MyriadPro-BoldCond'" font-size="12">+Y</text>
+	<text class="directionalText y shown" fill="#F2F2F2" transform="translate(68.25 109.75)"
+		font-family="'MyriadPro-BoldCond'" font-size="12">–Y</text>
+	<text class="directionalText z hidden" fill="#F2F2F2" transform="translate(67 48)"
+		font-family="'MyriadPro-BoldCond'" font-size="12">+Z</text>
+	<text class="directionalText z hidden" fill="#F2F2F2" transform="translate(68.25 109.75)"
+		font-family="'MyriadPro-BoldCond'" font-size="12">–Z</text>
+</svg>

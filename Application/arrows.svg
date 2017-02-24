@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+	<g fill="#FFFEF1" stroke="#2F2F2F" stroke-width="1.5"
+		stroke-miterlimit="10">
+	<path
+		d="M75 3.2l-12 49h24l-12-49zM146.8 75l-49-12v24l49-12zM75 146.8l12-49H63l12 49zM3.2 75l49 12V63l-49 12z" /></g>
+	<text transform="translate(100.75 78.5)"
+		font-family="'MyriadPro-BoldCond'" font-size="12">+X</text>
+	<text transform="translate(36.75 78.5)"
+		font-family="'MyriadPro-BoldCond'" font-size="12">–X</text>
+	<text transform="translate(68.25 44.75)"
+		font-family="'MyriadPro-BoldCond'" font-size="12">+Y</text>
+	<text transform="translate(68.25 109.75)"
+		font-family="'MyriadPro-BoldCond'" font-size="12">–Y</text></svg>

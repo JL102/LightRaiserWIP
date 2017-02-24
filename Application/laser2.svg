@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 120">
+
+<style>
+.ls0 {
+	fill: #61686b;
+	stroke: #2f2f2f;
+	stroke-width: 4;
+	stroke-miterlimit: 10
+}
+
+.ls1 {
+	font-family: MyriadPro-Bold, sans-serif;
+	font-weight: bold;
+}
+
+.ls2 {
+	font-size: 21.397;
+	color: #F2F2F2;
+}
+
+.laser_group:hover path, .laser_group:active path{
+	stroke: #000000;
+}
+
+.laser_group:active path{
+	fill: #2f2f2f;
+}
+</style>
+	<g class="laser_group">
+		<path  class="ls0" id="laser1"
+			d="M129.8 32.7H13.1c-3.4 0-6-.7-6-1.6V8.8c0-.9 3-1.6 6-1.6h116.3c3.4 0 6 .7 6 1.6v22.3c.4.9-2.6 1.6-5.6 1.6z" />
+		<text transform="translate(46.276 27.102)" fill="#F2F2F2"
+			 class="ls1 ls2">405nm</text>
+	</g>
+	<g class="laser_group">
+		<path class="ls0" id="laser2"
+			d="M129.8,71.8H13.1
+		c-3.4,0-6-0.7-6-1.6V47.8c0-0.9,3-1.6,6-1.6h116.3c3.4,0,6,0.7,6,1.6v22.3C135.8,71,132.8,71.8,129.8,71.8z" />
+		<text transform="translate(46.276 65.4)" fill="#F2F2F2"
+			 class="ls1 ls2">450nm</text>
+	</g>
+	<g class="laser_group">
+		<path class="ls0" id="laser3"
+			d="M129.8 111.6H13.1c-3.4 0-6-.7-6-1.6V87.7c0-.9 3-1.6 6-1.6h116.3c3.4 0 6 .7 6 1.6V110c.4.9-2.6 1.6-5.6 1.6z" />
+		<text transform="translate(46.276 105.935)" fill="#F2F2F2"
+			 class="ls1 ls2">520nm</text>
+	</g>
+</svg>

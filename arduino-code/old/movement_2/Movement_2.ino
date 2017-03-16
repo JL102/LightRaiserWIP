@@ -24,8 +24,8 @@ void setup()
   nbpin2 = 9;
   apin3 = 10;
   napin3 = 11;
-  bpin = 12;
-  nbpin = 13;
+  bpin3 = 12;
+  nbpin3 = 13;
 
   stepSize = 20;
   

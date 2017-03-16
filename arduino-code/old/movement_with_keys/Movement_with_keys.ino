@@ -293,6 +293,7 @@ void loop() {
          }
           break;
       }
+      Serial.println(readString);
       //Reset readString
       readString = "";
   } 
